@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rh-ee-tmartens-tenant/release-registry/release-registry@sha256:bd38dad834a516a8b2ead6f8cd1a41b0d02601a187fc3f5a234425d4b261142b
+      - image: quay.io/redhat-user-workloads/rh-ee-tmartens-tenant/release-registry/release-registry@sha256:072edafb88643c5d91f33602aacfc5f76e8a1a97194c7155d1ed9ef1d7552bde
         name: my-go
         resources: {}
 status: {}
