@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: release-registry
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rh-ee-tmartens-tenant/release-registry/release-registry@sha256:99a1839e9d98d20ba10da7f58bc50b913d735c9d3128ad56a54f7f173e897622
+        name: my-go
+        resources: {}
+status: {}
