@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: release-registry
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rh-ee-tmartens-tenant/release-registry/release-registry@sha256:072edafb88643c5d91f33602aacfc5f76e8a1a97194c7155d1ed9ef1d7552bde
+      - image: quay.io/redhat-user-workloads/rh-ee-tmartens-tenant/release-registry/release-registry@sha256:089d8b0f9460bc61defef789ec650e73851d1b6627ad326a957c4aca85531038
         name: my-go
         ports:
         - containerPort: 8081
